@@ -45,6 +45,7 @@ export default [
     },
     rules: {
       '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
+      '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/no-unnecessary-type-assertion': 'off',
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/switch-exhaustiveness-check': 'off',
@@ -68,6 +69,7 @@ export default [
       '@typescript-eslint/require-await': 'off',
       '@typescript-eslint/return-await': 'off',
       'no-console': 'off',
+      'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'error',
       'react/jsx-uses-vars': 'error'
     }
